@@ -16,7 +16,7 @@
     background-size: cover;
     background-position: center;
     width: 150%;
-    height: 150px;
+    height: 100px;
     color: white; /* Couleur du texte sur l'image */
     opacity:0.9;
     width:auto;
@@ -65,7 +65,7 @@
     margin-right:80px;
     display: flex;
     width:auto;
-    min-width:1000px;
+    min-width:1125px;
 }
 
 .titreo a{
@@ -78,7 +78,9 @@
     text-decoration: none;
 }
 .dom{
-    padding:50px;
+    padding-top:50px;
+    padding-bottom:50px;
+    padding-left:70px;
 }
 
 .disp{
