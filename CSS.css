@@ -1,6 +1,6 @@
 .page{
     width:auto;
-    min-width:1200px;
+    min-width:1000px;
     box-sizing: border-box;
 }
 .encadre{
@@ -67,7 +67,8 @@
     margin-right:80px;
     display: flex;
     width:auto;
-    min-width:1125px;
+    min-width:1000px;
+    box-sizing: border-box;
 }
 
 .titreo a{
