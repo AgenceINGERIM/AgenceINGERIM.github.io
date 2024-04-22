@@ -1,7 +1,7 @@
 .page{
-    width:auto;
     box-sizing: border-box;
-    min-width:1100px;
+    width:auto;
+    min-width:1000px;
 }
 .encadre{
     background-image: url('encadre.png');
@@ -11,7 +11,6 @@
     height: 500px;
     color: white; /* Couleur du texte sur l'image */
     width:auto;
-    box-sizing: border-box;
 }
 .onglets {
     background-image: url('coul.png');
@@ -22,7 +21,6 @@
     color: white; /* Couleur du texte sur l'image */
     opacity:0.9;
     width:auto;
-    box-sizing: border-box;
 }
 .ongles{
     padding-left:15px;
@@ -33,7 +31,6 @@
     font-family: 'Open Sans';
     font-size:23px;
     width:auto;
-    box-sizing: border-box;
    
 }
 
@@ -53,16 +50,23 @@
     margin-top:20px;
     margin-left:40px;
     margin-right:20px;
-    width:auto;
     
 }
 .sect{
     display:flex;
-    margin:20px;
-    margin-right:80px;
     font-family: 'Open Sans';
-    width:auto;
     box-sizing: border-box;
+}
+.right{
+    margin:20px;
+    text-align:right;
+}
+.left{
+    margin:20px;
+    text-align:left;
+}
+.exp{
+    width:auto;
 }
 .contact{
     background-color:RGB(230,230,230);
@@ -70,7 +74,7 @@
     margin-right:80px;
     display: flex;
     width:auto;
-    box-sizing: border-box;
+    min-width:1125px;
 }
 
 .titreo a{
