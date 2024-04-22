@@ -1,6 +1,5 @@
 .page{
     width:auto;
-    min-width:1200px;
     box-sizing: border-box;
 }
 .encadre{
@@ -10,7 +9,8 @@
     width: 100%;
     height: 500px;
     color: white; /* Couleur du texte sur l'image */
-    min-width:1200px;
+    width:auto;
+    box-sizing: border-box;
 }
 .onglets {
     background-image: url('coul.png');
@@ -20,7 +20,8 @@
     height: 100px;
     color: white; /* Couleur du texte sur l'image */
     opacity:0.9;
-    min-width:1200px;
+    width:auto;
+    box-sizing: border-box;
 }
 .ongles{
     padding-left:15px;
@@ -30,7 +31,8 @@
     font-weight: 300;
     font-family: 'Open Sans';
     font-size:23px;
-    min-width:1200px;
+    width:auto;
+    box-sizing: border-box;
    
 }
 
@@ -57,6 +59,7 @@
     margin:20px;
     margin-right:80px;
     font-family: 'Open Sans';
+    width:auto;
     box-sizing: border-box;
 }
 .contact{
@@ -65,7 +68,6 @@
     margin-right:80px;
     display: flex;
     width:auto;
-    min-width:1200px;
     box-sizing: border-box;
 }
 
